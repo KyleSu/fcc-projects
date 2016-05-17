@@ -1,0 +1,66 @@
+body {
+  font-family: Arial;
+}
+
+.content-wrap {
+  background-color: #b2cecf;
+}
+
+.title {
+  padding-top: 20px;
+  font-size: 5em;
+  font-style: oblique;
+  font-weight: bold;
+  text-align: center;
+}
+
+.nickname {
+  margin-top: -80px;
+  font-size: 3em;
+  text-align: center;
+  font-style: italic;
+}
+
+.img-wrap {
+  background-color: white;
+  width: 1000px;  
+  padding-top: 10px;
+  margin: 10px 0px 10px 200px;
+  border-radius: 25px;
+}
+
+.img {
+  display: block;
+  width: 98%;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+.img-description {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.content {
+  margin-left: 300px;
+  margin-bottom: 70px;
+}
+.content h2 {
+  margin-bottom: -10px;
+}
+
+.content li {
+  margin-bottom: -10px;
+}
+
+.content ul {
+  margin-bottom: 40px;
+}
+
+.quote {
+  font-size: 2em;
+}
+
+.external-link {
+  text-align: center;
+}
