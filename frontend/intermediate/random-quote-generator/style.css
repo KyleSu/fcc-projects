@@ -1,0 +1,50 @@
+body {
+  background-color: grey;
+}
+
+.flex-container {
+  height: 95vh;
+  
+  -ms-display: flex;
+  -webkit-display: flex;
+  display: flex;
+  
+  -ms-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  
+  -ms-align-items: center;
+  -webkit-align-items: center;
+  align-items: center;
+
+}
+
+.wrap {
+  background-color: white;
+  width: calc(100% / 3);
+  padding: 50px 50px 50px 50px;
+}
+
+
+p {
+  margin: 0;
+  font-family: Georgia;
+  text-align: center;
+}
+
+#quote {
+  font-size: 2em;
+}
+
+#author {
+  font-size: 1.4em;
+}
+
+.btn {
+  display: none;
+  color: white;
+}
+
+.twitter-share-button {
+  color: white;
+}
