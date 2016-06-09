@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700);
+
+
+body {
+  background-color: rgba(32, 32, 32, 1);
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+#title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 7rem;
+}
+
+#content-wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+#weather-info {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+  border-radius: 25px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+#city {
+  font-size: 4rem;
+}
+
+#temperature, #description, #wind {
+  font-size: 2rem;
+}
+
+#change-unit {
+  color: white;
+  text-align: center;
+  margin-top: -8%;
+}
+
+#credits {
+  color: white;
+  text-align: center;
+}
